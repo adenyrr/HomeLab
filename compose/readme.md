@@ -18,7 +18,7 @@ Fichiers : [`adguard/compose.yaml`](adguard/compose.yaml)
 
 ### Immich
 
-Fichiers : [`immich/hwaccel.ml.yml`](immich/hwaccel.ml.yml)
+Fichiers : [`immich/hwaccel.ml.yml`](immich/compose.yml)
 
 ### Vaultwarden
 
@@ -26,7 +26,7 @@ Fichiers : [`vaultwarden/compose.yaml`](vaultwarden/compose.yaml)
 
 ## Stack médias :
 
-### Jellyfin
+### Jellyfin (avec transcodage nvidia)
 
 Fichiers : [`jellyfin/compose.yaml`](jellyfin/compose.yaml)
 
