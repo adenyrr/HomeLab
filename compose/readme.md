@@ -18,7 +18,7 @@ Fichiers : [`adguard/compose.yaml`](adguard/compose.yaml)
 
 ### Immich
 
-Fichiers : [`immich/hwaccel.ml.yml`](immich/compose.yml)
+Fichiers : [`immich/compose.yml`](immich/compose.yml)
 
 ### Vaultwarden
 
