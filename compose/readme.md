@@ -11,7 +11,10 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 
     AdGuard est un service de DNS complet avec GUI, blocages, réécritures DNS. Supporte DoH, DoT ou encore Quic.
 
-Fichiers : [`adguard/compose.yaml`](adguard/compose.yaml)
+- Fichiers: [`adguard/compose.yaml`](adguard/compose.yaml)
+- Tutoriels: SOON
+- Site du projet: [AdGuard.com](https://adguard.com/fr/adguard-home/overview.html)
+- Code source: [GH AdGuard](https://github.com/AdguardTeam/AdGuardHome)
 
 ## Stack cloud :
 
@@ -19,24 +22,47 @@ Fichiers : [`adguard/compose.yaml`](adguard/compose.yaml)
 
     Authentik permet de centraliser la configuration des identifiants en un point unique. SSO, LDAP, OICD, ...
 
-Fichiers : [`authentik/compose.yaml`](authentik/compose.yaml)
+- Fichiers: [`authentik/compose.yaml`](authentik/compose.yaml)
+- Tutoriels: SOON
+- Site du projet: [Authentik.io](https://goauthentik.io/)
+- Code source: [GH Authentik](https://github.com/goauthentik/authentik)
 
 ### Immich
 
-Fichiers : [`immich/compose.yml`](immich/compose.yml)
+    Immich est un gestionnaire de sauvegardes photos et vidéos, avec applications mobiles.
+
+- Fichiers: [`immich/compose.yml`](immich/compose.yml)
+- Tutoriels: SOON
+- Site du projet: [Immich.app](https://immich.app/)
+- Code source: [GH Immich](https://github.com/immich-app/immich)
 
 ### Vaultwarden
 
-Fichiers : [`vaultwarden/compose.yaml`](vaultwarden/compose.yaml)
+    Vaultwarden est un fork de Bitwarden, le gestionnaire de mot de passe.
+
+- Fichiers: [`vaultwarden/compose.yaml`](vaultwarden/compose.yaml)
+- Tutoriels: SOON
+- Site du projet: [Vaultwarden.net](https://www.vaultwarden.net/)
+- Code source: [GH Vaultwarden](https://github.com/dani-garcia/vaultwarden)
 
 ## Stack médias :
 
 ### Jellyfin (avec transcodage nvidia)
 
-Fichiers : [`jellyfin/compose.yaml`](jellyfin/compose.yaml)
+    Jellyfin est une plateforme de streaming entièrement autohébergée, similaire à Plex.
+
+- Fichiers: [`jellyfin/compose.yaml`](jellyfin/compose.yaml)
+- Tutoriels: [become.sh](https://docs.become.sh/services/jellyfin/)
+- Site du projet: [Jellyfin.org](https://jellyfin.org/)
+- Code source: [GH Jellyfin](https://github.com/jellyfin/jellyfin)
 
 ## Stack LLM :
 
-### Ollama
+### Ollama + OpenWebUI
 
-Fichiers : [`ollama/compose.yaml`](ollama/compose.yaml)
+    Ollama est une plateforme permettant de télécharger et utiliser des LLM. OpenWebUI est une interface de gestion d'Ollama permettant d'utiliser outils, fonctions, RAG, chatbot et plus encore.
+
+- Fichiers: [`ollama/compose.yaml`](ollama/compose.yaml)
+- Tutoriels: [become.sh](https://docs.become.sh/services/ollama/)
+- Site du projet: [Ollama.com](https://ollama.com/) && [OpenWebUI.com](https://openwebui.com/)
+- Code source: [GH Ollama](https://github.com/ollama/ollama) && [GH OpenWebUI](https://github.com/open-webui/open-webui)
