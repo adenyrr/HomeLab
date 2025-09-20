@@ -2,11 +2,8 @@
 
 Docker compose pour déploiement. Chaque service est déployé via [Komo.do](https://komo.do/) depuis un dépot local.
 
-# Dépôt Docker Compose
 
-Ce dépôt contient des fichiers de configuration Docker Compose pour différents services auto-hébergés.
-
-# Services déployés via docker compose :
+# Services déployés :
 
 ## Stack réseau :
 
