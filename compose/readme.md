@@ -12,9 +12,17 @@ Ce dépôt contient des fichiers de configuration Docker Compose pour différent
 
 ### AdGuard
 
+    AdGuard est un service de DNS complet avec GUI, blocages, réécritures DNS. Supporte DoH, DoT ou encore Quic.
+
 Fichiers : [`adguard/compose.yaml`](adguard/compose.yaml)
 
 ## Stack cloud :
+
+### Authentik
+
+    Authentik permet de centraliser la configuration des identifiants en un point unique. SSO, LDAP, OICD, ...
+
+Fichiers : [`authentik/compose.yaml`](authentik/compose.yaml)
 
 ### Immich
 
