@@ -45,6 +45,16 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 - Site du projet: [Vaultwarden.net](https://www.vaultwarden.net/)
 - Code source: [GH Vaultwarden](https://github.com/dani-garcia/vaultwarden)
 
+### Linkwarden
+
+    Linkwarden est un manager de marque-pages. Il permet de sauvegarder, trier et consulter plus tard des liens.
+
+- Fichiers: [`linkwarden/compose.yml`](linkwarden/compose.yml)
+- Tutoriels: SOON
+- Site du projet: [Linkwarden.app](https://linkwarden.app/)
+- Code source: [GH Linkwarden](https://github.com/linkwarden/linkwarden)
+
+
 ## Stack médias :
 
 ### Jellyfin (avec transcodage nvidia)
