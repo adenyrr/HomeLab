@@ -16,6 +16,16 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 - Site du projet: [AdGuard.com](https://adguard.com/fr/adguard-home/overview.html)
 - Code source: [GH AdGuard](https://github.com/AdguardTeam/AdGuardHome)
 
+### Wazuh
+
+    Wazuh est une plateforme de surveillance et de réponse aux évènements d'une infrastructure.
+
+- Fichiers: [`wazuh/compose.yaml`](wazuh/compose.yaml)
+- Tutoriels: SOON
+- Site du projet: [Wazuh.com](https://wazuh.com/)
+- Code source: [GH Wazuh](https://github.com/Wazuh/Wazuh)
+
+
 ## Stack cloud :
 
 ### Authentik
@@ -53,6 +63,17 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 - Tutoriels: SOON
 - Site du projet: [Linkwarden.app](https://linkwarden.app/)
 - Code source: [GH Linkwarden](https://github.com/linkwarden/linkwarden)
+
+## Stack monitoring
+
+### Grafana
+
+    Grafana permet de mettre en forme de manière complètement libre les données récoltées par d'autres sources.
+
+- Fichiers: [`grafana/compose.yaml`](grafana/compose.yaml)
+- Tutoriels: SOON
+- Site du projet: [Grafana.com](https://grafana.com/)
+- Code source: [GH Grafana](https://github.com/grafana/grafana)
 
 
 ## Stack médias :
