@@ -10,6 +10,6 @@ services:
      - ${DATA}:/data
     environment:
      - WEBSOCKET_ENABLED=true
-     - SIGNUPS_ALLOWED=true #Need true for first account
+     - SIGNUPS_ALLOWED=false #Need true for first account
      - DOMAIN=${DOMAIN}
      - ADMIN_TOKEN=${ADMIN_TOKEN}
