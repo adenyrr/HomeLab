@@ -78,6 +78,15 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 
 ## Stack médias :
 
+### QBitTorrent
+
+    Qbittorrent est un logiciel de gestion de téléchargements par torrents, basé sur Qt et supportant des milliers de fichiers.
+
+- Fichiers: [`qbittorrent/compose.yaml`](qbittorrent/compose.yaml)
+- Tutoriels: SOON
+- Site du projet: [qbittorrent.org](https://www.qbittorrent.org/)
+- Code source: [GH Qbittorrent](https://github.com/qbittorrent/qBittorrent/)
+
 ### Jellyfin (avec transcodage nvidia)
 
     Jellyfin est une plateforme de streaming entièrement autohébergée, similaire à Plex.
