@@ -17,16 +17,8 @@ services:
       - "1515:1515"
       - "514:514/udp"
       - "55000:55000"
-    environment:
-      - INDEXER_URL=https://wazuh.indexer:9200
-      - INDEXER_USERNAME=admin
-      - INDEXER_PASSWORD=SecretPassword
-      - FILEBEAT_SSL_VERIFICATION_MODE=full
-      - SSL_CERTIFICATE_AUTHORITIES=/etc/ssl/root-ca.pem
-      - SSL_CERTIFICATE=/etc/ssl/filebeat.pem
-      - SSL_KEY=/etc/ssl/filebeat.key
-      - API_USERNAME=wazuh-wui
-      - API_PASSWORD=MyS3cr37P450r.*-
+    env_file:
+      - .env
     volumes:
       - wazuh_api_configuration:/var/ossec/api/configuration
       - wazuh_etc:/var/ossec/etc
