@@ -20,7 +20,7 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 
     Wazuh est une plateforme de surveillance et de réponse aux évènements d'une infrastructure.
 
-- Fichiers: [`wazuh/compose.yaml`](wazuh/compose.yaml)
+- Fichiers: [`wazuh/server-compose.yaml`](wazuh/server-compose.yaml), [`wazuh/agent-compose.yaml`](wazuh/agent-compose.yaml)
 - Tutoriels: SOON
 - Site du projet: [Wazuh.com](https://wazuh.com/)
 - Code source: [GH Wazuh](https://github.com/Wazuh/Wazuh)
