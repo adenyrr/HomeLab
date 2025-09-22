@@ -66,6 +66,15 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 
 ## Stack monitoring
 
+### Ntfy
+
+    Ntfy permet de recevoir des alertes en cas d'évènements prédéfinis.
+
+- Fichiers: [`ntfy/compose.yaml`](ntfy/compose.yaml)
+- Tutoriels: SOON
+- Site du projet: [Ntfy.sh](https://ntfy.sh/)
+- Code source: [GH ntfy](https://github.com/binwiederhier/ntfy)
+
 ### Grafana
 
     Grafana permet de mettre en forme de manière complètement libre les données récoltées par d'autres sources.
@@ -74,7 +83,6 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 - Tutoriels: SOON
 - Site du projet: [Grafana.com](https://grafana.com/)
 - Code source: [GH Grafana](https://github.com/grafana/grafana)
-
 
 ## Stack médias :
 
