@@ -16,11 +16,11 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 - Site du projet: [AdGuard.com](https://adguard.com/fr/adguard-home/overview.html)
 - Code source: [GH AdGuard](https://github.com/AdguardTeam/AdGuardHome)
 
-### Wazuh
+### Wazuh AGENT
 
     Wazuh est une plateforme de surveillance et de réponse aux évènements d'une infrastructure.
 
-- Fichiers: [`wazuh/server-compose.yaml`](wazuh/server-compose.yaml), [`wazuh/agent-compose.yaml`](wazuh/agent-compose.yaml)
+- Fichiers: [`wazuh/agent-compose.yaml`](wazuh/agent-compose.yaml)
 - Tutoriels: SOON
 - Site du projet: [Wazuh.com](https://wazuh.com/)
 - Code source: [GH Wazuh](https://github.com/Wazuh/Wazuh)
