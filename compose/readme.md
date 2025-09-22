@@ -75,6 +75,15 @@ Docker compose pour déploiement. Chaque service est déployé via [Komo.do](htt
 - Site du projet: [Ntfy.sh](https://ntfy.sh/)
 - Code source: [GH ntfy](https://github.com/binwiederhier/ntfy)
 
+### Plausible
+
+    Plausible permet de consulter les statistiques de visite de ses sites en étant RGPD-friendly.
+
+- Fichiers: [`plausible/compose.yaml`](plausible/compose.yaml)
+- Tutoriels: SOON
+- Site du projet: [Plausible.io](https://plausible.io/)
+- Code source: [GH Plausible](https://github.com/plausible/community-edition)
+
 ### Grafana
 
     Grafana permet de mettre en forme de manière complètement libre les données récoltées par d'autres sources.
