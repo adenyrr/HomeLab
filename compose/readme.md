@@ -2,6 +2,26 @@
 
 Docker compose pour déploiement. Chaque service est déployé via [Komo.do](https://komo.do/) depuis un dépot local.
 
+# Sommaire
+
+- [Stack réseau](#stack-réseau)
+  - [AdGuard](#adguard)
+  - [Wazuh AGENT](#wazuh-agent)
+- [Stack cloud](#stack-cloud)
+  - [Authentik](#authentik)
+  - [Immich](#immich)
+  - [Vaultwarden](#vaultwarden)
+  - [Linkwarden](#linkwarden)
+- [Stack monitoring](#stack-monitoring)
+  - [Ntfy](#ntfy)
+  - [Plausible](#plausible)
+  - [Grafana](#grafana)
+- [Stack médias](#stack-médias)
+  - [QBitTorrent](#qbittorrent)
+  - [Jellyfin (Nvidia GPU)](#jellyfin-avec-transcodage-nvidia)
+- [Stack LLM](#stack-llm)
+  - [Ollama + OpenWebUI](#ollama--openwebui)
+
 
 # Services déployés :
 
