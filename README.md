@@ -16,7 +16,7 @@ Un cluster Proxmox avec stockage CEPH distribué : 3 nodes - 32 CPU / 80 GB DDR
 
 # Consommation 
 
-En moyenne, mon infrastructure consomme 136 Wh
+En moyenne, mon infrastructure consomme 136 Wh.
 
 # Stockage
 
