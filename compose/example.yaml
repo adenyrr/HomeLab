@@ -38,7 +38,7 @@ services:
 
     command: commande argument #Lance une commande au démarrage différente de cette présente dans le dockerfile
     
-  ..healthcheck: #On verifie la santé du conteneur
+    healthcheck: #On verifie la santé du conteneur
       interval: ns #Où 'n' est le nombre de secondes d'intervalles entre deux check
       retries: n #Où 'n' est le nombre de tentatives avant de considérer le conteneur comme unhealty
       start_period: 20s #Période durant laquelle aucun test n'est effectué après le démarrage
