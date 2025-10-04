@@ -66,3 +66,14 @@ volumes:
   nom_du_volume2:
     driver: local
   ...
+
+
+# Deux commandes utiles :
+
+Générer un mot de passe aléatoire pour la variable $SECRET:
+
+$SECRET=$(openssl rand -base64 36 | tr -d '\n')
+
+Healtcheck d'une base de donnée postgresql :
+
+pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}
