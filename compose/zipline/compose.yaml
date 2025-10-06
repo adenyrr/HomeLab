@@ -29,7 +29,7 @@ services:
       postgresql:
         condition: service_healthy
     volumes:
-      - $UPLOAD:/zipline/uploads
+      - $UPLOADS:/zipline/uploads
       - $PUBLIC:/zipline/public
       - $THEMES:/zipline/themes
     healthcheck:
