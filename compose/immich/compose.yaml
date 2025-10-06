@@ -61,13 +61,5 @@ services:
     shm_size: 128mb
     restart: always
 
-  power-tools:
-    container_name: immich_power_tools
-    image: ghcr.io/varun-raj/immich-power-tools:latest
-    ports:
-      - "8001:3000"
-    env_file:
-      - .env
-
 volumes:
   model-cache:
