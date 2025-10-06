@@ -29,9 +29,9 @@ services:
       postgresql:
         condition: service_healthy
     volumes:
-      - $UPLOADS:/zipline/uploads
-      - $PUBLIC:/zipline/public
-      - $THEMES:/zipline/themes
+      - ${UPLOADS}:/zipline/uploads
+      - ${PUBLIC}:/zipline/public
+      - ${THEMES}:/zipline/themes
     healthcheck:
       test: ['CMD', 'wget', '-q', '--spider', 'http://localhost:3000/api/healthcheck']
       interval: 15s
